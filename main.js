@@ -14,12 +14,11 @@ let game = () => {
                 return alert("До свидания!");
             }
         } else {
-            let userNum = prompt("Угадай число от 1 до 100");
+            let userNum = +prompt("Угадай число от 1 до 100");
             if (userNum === null) {
                 return alert("Игра окончена!");
             }
             if (isNumber(userNum)) {
-                userNum = +userNum;
                 if (userNum > randomNum) {
                     alert("Загаданное число меньше, осталось попыток " + lives);
                     result();
