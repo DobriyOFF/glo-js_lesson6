@@ -26,7 +26,7 @@ let game = () => {
                     alert("Загаданное число больше, осталось попыток " + lives);
                     result();
                 } else if (userNum === randomNum) {
-                    if (confirm("Поздравляю, Вы угадали!!! Сыграем еще?")) {
+                    if (confirm("Поздравляю, Вы угадали!!! Хотели бы сыграть еще?")) {
                         game();
                     } else {
                         return alert("Игра окончена!")
