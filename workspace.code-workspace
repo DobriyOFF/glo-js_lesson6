@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../glo-js"
+		},
+		{
+			"path": "../glo-js_comp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "glo-js"
+	}
+}
